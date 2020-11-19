@@ -129,3 +129,12 @@ int main()
 
 	json j = v;
 }
+
+// Output :
+// 4
+// called to_json for Base
+// called to_json for Obj
+// called to_json for Base
+// called to_json for Obj
+//
+// Thanks to https://stackoverflow.com/a/64352583/7135482
